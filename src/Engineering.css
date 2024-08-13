@@ -1,0 +1,111 @@
+
+.engineering-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 40px; 
+  padding: 40px;
+  background: linear-gradient(135deg, #d3cfc0, #f4f0e8); 
+  min-height: 100vh; 
+}
+
+
+.engineering-title-page {
+  text-align: center;
+  color: #333333; 
+  margin-bottom: 40px;
+  font-size: 2.5rem; 
+  font-weight: 600; 
+}
+
+
+.engineering-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 300px; 
+  width: 100%;
+  height: 400px; 
+}
+
+
+.engineering-card:hover {
+  transform: scale(1.02); 
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); 
+}
+
+
+.engineering-image {
+  width: 100%;
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: filter 0.2s ease;
+}
+
+
+.engineering-card:hover .engineering-image {
+  filter: brightness(1.1); 
+}
+
+
+.engineering-title {
+  font-size: 1.3em; 
+  color: #333333; 
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+
+.engineering-description {
+  font-size: 0.9em; 
+  color: #666666; 
+  margin-bottom: 20px;
+  line-height: 1.6;
+  padding: 0 10px; 
+}
+
+
+.engineering-button-container {
+  margin-top: auto;
+}
+
+
+.engineering-button-link {
+  text-decoration: none;
+}
+
+.engineering-button {
+  padding: 12px 24px;
+  background-color: #ff6f00; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+  position: relative;
+  overflow: hidden; 
+}
+
+.engineering-button:hover {
+  background-color: #e65100; 
+  transform: translateY(-2px); 
+}
+
+.engineering-button:focus,
+.engineering-button:active {
+  background-color: #e65100; 
+  transform: translateY(-2px);
+  outline: none;
+}

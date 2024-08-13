@@ -1,0 +1,112 @@
+
+.navbar-alt {
+  background-color: #1c1c1c !important; 
+}
+
+.navbar-toolbar-alt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+.navbar-logo-link-alt {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+.navbar-logo-alt {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.navbar-logo-alt:hover {
+  transform: rotate(360deg); 
+}
+
+
+.navbar-title-alt {
+  color: #ffffff !important; 
+  font-weight: bold;
+  font-size: 1.5rem; 
+}
+
+
+.navbar-actions-alt {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.navbar-button-alt {
+  color: #ffffff !important; 
+  background-color: #333333; 
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.navbar-button-alt a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+
+.navbar-button-alt:hover {
+  background-color: #444444 !important; 
+  transform: scale(1.05); 
+}
+
+
+.MuiMenu-paper {
+  background-color: #1c1c1c; 
+  border-radius: 5px;
+  margin-top: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+
+.MuiMenuItem-root {
+  color: #ffffff; 
+  padding: 10px 20px; 
+}
+
+
+.MuiMenuItem-root:hover {
+  background-color: #333333; 
+}
+
+
+.MuiMenuItem-root a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+
+.MuiMenuItem-root a:hover {
+  background-color: #333333; 
+}
+
+
+@media (max-width: 768px) {
+  .navbar-toolbar-alt {
+    flex-direction: column;
+  }
+
+  .navbar-actions-alt {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

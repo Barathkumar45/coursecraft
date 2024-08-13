@@ -1,0 +1,120 @@
+.admin-login-page-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .admin-image-container {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .admin-login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .admin-login-box {
+    background-color: #87898b23;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 450px;
+    box-sizing: border-box;
+    height: max-content;
+  }
+  
+  .admin-input-group {
+    margin-bottom: 20px;
+  }
+  
+  .admin-input-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .admin-input-group input {
+    width: 92%;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .admin-login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f93a3a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .admin-login-button:hover {
+    background-color: #a04545;
+  }
+  
+  .admin-signup-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .admin-login-image {
+    width: 115%;
+    height: 96%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 70px;
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 1024px) {
+    .admin-login-page-container {
+      padding: 10px;
+    }
+  
+    .admin-login-box {
+      padding: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .admin-login-page-container {
+      flex-direction: column;
+    }
+  
+    .admin-login-container,
+    .admin-image-container {
+      width: 90%;
+      max-width: none;
+    }
+  
+    .admin-login-box {
+      width: 90%;
+      max-width: none;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .admin-login-box {
+      padding: 20px;
+    }
+  
+    .admin-login-image {
+      max-height: 300px;
+    }
+  }
+  

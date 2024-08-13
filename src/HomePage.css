@@ -1,0 +1,93 @@
+
+
+.homepage-container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d3cfc0, #f4f0e8); 
+}
+
+
+.home-image {
+  width: 70%;
+  height: 450%;
+  object-fit: cover;
+  margin-bottom: 100px;
+  margin-left: -290px;
+}
+
+
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  margin-left: -200px;
+  margin-bottom: 100px;
+}
+
+
+.hero-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.company-name {
+  font-size: 2.5em;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+
+.info-cards-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+
+.info-card {
+  background-color: #423e3e36;
+  border: 1px solid #ccc;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 0 250px;
+  max-width: 300px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.info-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.info-card h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  font-size: 1em;
+  color: #555;
+}

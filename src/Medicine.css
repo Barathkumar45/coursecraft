@@ -1,0 +1,124 @@
+/* Container Style */
+.medicine-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 40px; /* Increased gap between cards */
+    padding: 40px;
+    background: linear-gradient(135deg, #d3cfc0, #f4f0e8); /* Gradient background */
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Title Wrapper Style */
+.medicine-title-wrapper {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Title Page Style */
+.medicine-title-page {
+    color: #333333; /* Dark grey for title */
+    font-size: 1.5rem; /* Reduced font size */
+    font-weight: 500; /* Lightly bolder text */
+    line-height: 1.4; /* Adjust line height for better readability */
+}
+
+/* Card Container Style */
+.medicine-card-container {
+    display: flex; /* Horizontal layout for cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center cards horizontally */
+    gap: 40px; /* Space between cards */
+}
+
+/* Card Style */
+.medicine-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd; /* Lighter border for a subtle look */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    max-width: 300px; /* Fixed card width */
+    width: 100%;
+    height: 400px; /* Fixed height for vertical size */
+}
+
+/* Hover Effect */
+.medicine-card:hover {
+    transform: scale(1.02); /* Slightly zoom the card on hover */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Subtle shadow on hover */
+}
+
+/* Image Style */
+.medicine-image {
+    width: 100%;
+    height: 150px; /* Reduced height for vertical size */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: filter 0.2s ease;
+}
+
+/* Hover Effect on Image */
+.medicine-card:hover .medicine-image {
+    filter: brightness(1.1); /* Slightly brighten image on hover */
+}
+
+/* Title Style */
+.medicine-title {
+    font-size: 1.3em; /* Adjusted font size */
+    color: #333333; /* Dark grey for text */
+    margin: 10px 0;
+    font-weight: 500; /* Lightly bolder text */
+}
+
+/* Description Style */
+.medicine-description {
+    font-size: 0.9em; /* Adjusted font size */
+    color: #666666; /* Medium grey for description text */
+    margin-bottom: 20px;
+    line-height: 1.6;
+    padding: 0 10px; /* Padding for better text alignment */
+}
+
+/* Button Container Style */
+.medicine-button-container {
+    margin-top: auto;
+}
+
+/* Button Style */
+.medicine-button-link {
+    text-decoration: none;
+}
+
+.medicine-button {
+    padding: 12px 24px;
+    background-color: #ff6f00; /* Bright orange color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+    position: relative;
+    overflow: hidden; /* To contain hover effects */
+}
+
+.medicine-button:hover {
+    background-color: #e65100; /* Darker orange for hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.medicine-button:focus,
+.medicine-button:active {
+    background-color: #e65100; /* Keep the same darker orange on focus and active */
+    transform: translateY(-2px);
+    outline: none;
+}

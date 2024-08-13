@@ -1,0 +1,65 @@
+
+.admin-contact-page {
+  background: linear-gradient(135deg, #d3cfc0, #f4f0e8);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.admin-contact-container {
+  max-width: 800px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 40px 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+/* Title Styles */
+.admin-contact-container h1 {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Table Styles */
+.messages-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.messages-table th, .messages-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.messages-table th {
+  background-color: #f4f0e8;
+  color: #333;
+  font-weight: bold;
+}
+
+.messages-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.messages-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.messages-table td {
+  color: #555;
+}
+
+.messages-table td strong {
+  color: #ff6f00;
+}

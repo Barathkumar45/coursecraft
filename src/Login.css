@@ -1,0 +1,134 @@
+
+.login-page-wrapper {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(135deg, #d3cfc0, #f4f0e8); 
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.login-form-container {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.login-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  width: 100%;
+  max-width: 360px; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 24px; 
+  font-size: 1.8rem; 
+  color: #4a4a4a; 
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+
+.error-message {
+  color: #e57373;
+  margin-bottom: 20px; 
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
+.form-group {
+  width: 100%;
+  margin-bottom: 1.5rem; 
+}
+
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px; 
+  font-weight: 600;
+  color: #333; 
+  font-size: 1rem; 
+  letter-spacing: 0.5px;
+}
+
+
+.form-group input {
+  width: 100%;
+  padding: 16px; 
+  border: 1px solid #ddd;
+  border-radius: 10px; 
+  box-sizing: border-box;
+  font-size: 1.1rem; 
+  transition: border-color 0.3s, box-shadow 0.3s;
+  outline: none;
+  background: #fafafa; 
+}
+
+
+.form-group input:focus {
+  border-color: #ffab40; 
+  box-shadow: 0 0 8px rgba(255, 171, 64, 0.3); 
+}
+.login-card button {
+  width: 100%;
+  padding: 14px; 
+  background: linear-gradient(135deg, #ffab40, #ff6f00); 
+  color: #fff; 
+  border: none;
+  border-radius: 10px; 
+  font-size: 1.1rem; 
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-top: 20px;
+  text-decoration: none; 
+}
+
+
+.login-card button:hover {
+  background: linear-gradient(135deg, #ff6f00, #e65100); 
+  transform: scale(1.05);
+}
+
+.login-card button:active {
+  background: linear-gradient(135deg, #e65100, #bf360c);
+  transform: scale(0.98);
+}
+
+
+.login-card button a {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+
+.register-link {
+  margin-top: 20px; 
+  text-align: center;
+  color: #4a4a4a; 
+}
+
+.register-link a {
+  color: #ffab40; 
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.register-link a:hover {
+  color: #ff6f00; 
+  text-decoration: underline;
+}
